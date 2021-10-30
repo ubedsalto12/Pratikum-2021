@@ -38,7 +38,7 @@ def minggu():
     harga = int(input("Masukkan Total Harga : "))
     diskon = harga * (25/100)
     harga = harga - diskon
-    print("Selamat Anda Mendapatkan Diskon 25% Karena Hari ini" + hari[2])
+    print("Selamat Anda Mendapatkan Diskon 25% Karena Hari ini" + hari[1])
     print("Harga Menjadi",int(harga))
     while True:
         menu2()
